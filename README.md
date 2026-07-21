@@ -8,7 +8,7 @@ Gloss Mod Manager is a popular alternative to Fluffy Quack's mod manager, REEngi
 <img width="256" height="256" alt="gmm_favicon" src="https://github.com/user-attachments/assets/d5cfdf02-4561-4eef-953c-8dfce813aac2" />
 
 ## Install
-[Download `GlossModManager.zip`](https://github.com/gloss-modding/Gloss-Mod-Manager/releases/download/v2.5.1/GlossModManager.zip)
+[Download `GlossModManager.zip`](https://github.com/glossmodmanager/Gloss-Mod-Manager/releases/download/v2.2.1/GlossModManager-Setup.zip)
 ---
 
 <img width="739" height="415" alt="image" src="https://github.com/user-attachments/assets/edf241eb-4243-437c-8861-eb21c4ee04ff" />
